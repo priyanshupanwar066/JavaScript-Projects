@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wheather Update</title>
+  <link rel="stylesheet" href="Weather.Css" />
+</head>
+
+<body>
+  <div class="card">
+    <div class="search">
+      <input type="text" spellcheck="false" id="cityInput" placeholder="Enter city name" />
+      <button id="searchBtn">
+        <img src="icons8-search-128.png" alt="search" class="search" />
+      </button>
+    </div>
+    <div class="error">
+      <p>Invalid City Name</p>
+    </div>
+    <div class="weather">
+      <img src="snowy_2044021.png" class="weather-icon" alt="" />
+      <h1 class="temp">24°C</h1>
+      <h2 class="city">New York</h2>
+      <div class="details">
+        <div class="col">
+          <img src="humidity.png" alt="" />
+          <div>
+            <p class="Humidity">50%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="wind.png" alt="" />
+          <div>
+            <p class="Wind">15 Km/h</p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="Weather-App.js"></script>
+
+</html>
