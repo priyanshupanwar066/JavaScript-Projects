@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sur Taal</title>
+    <link rel="stylesheet" href="Sur_Taal.css">
+    <script src="https://kit.fontawesome.com/3988b46d89.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img class="songImg"  src="behnam-norouzi-EQFsJl_ZrG0-unsplash.jpg" alt="">
+            <h1>Shehar Patia</h1>
+            <p>Karan Randhawa</p>
+
+            <audio id="song" src="Shehar Patia Karan Randhawa 128 Kbps.mp3"></audio>
+
+            <input id="progress" type="range" value="0">
+
+            <div class="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div onclick="playpause()"><i class="fa-solid fa-play" id="controlIcon"></i></div>
+                <div><i class="fa-solid fa-forward"></i></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="Sur_Taal.js"></script>
+</html>
